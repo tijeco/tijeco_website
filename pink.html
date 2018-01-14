@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Inconsolata'>
+<style class="cp-pen-styles">
+    /* body {
+  font-family: 'Inconsolata', serif;
+  font-size: 40px;
+  text-align: center;
+  background: #1D1F20;
+  color: #fff;
+} */
+
+    .text {
+        display: block;
+        font-family: 'Inconsolata', serif;
+        font-size: 40px;
+        padding-top: 15px;
+    }
+
+    .pal {
+        margin-right: -18px;
+        max-width: 40px;
+        /*   border-style:dashed; */
+        position: relative;
+        /*   margin:0px; */
+        padding: 0px;
+        overflow: hidden;
+        display: inline-block;
+        color: #03cc85;
+        -webkit-transition: max-width 0.5s ease-in;
+        -o-transition: max-width 0.5s ease-in;
+        -moz-transition: max-width 0.5s ease-in;
+        transition: max-width 0.5s ease-in;
+    }
+
+    .palHover {
+        margin-right: -8px;
+        max-width: 250px;
+        -webkit-transition: max-width 0.5s ease-in;
+        -o-transition: max-width 0.5s ease-in;
+        -moz-transition: max-width 0.5s ease-in;
+        transition: max-width 0.5s ease-in;
+    }
+
+    .subPal {
+        font-size: 20px;
+        display: inline-block;
+        line-height: 10px;
+    }
+
+    .white {
+        color: #fff;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Only Mobile Push Menu Demo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,400,700">
+    <link rel="stylesheet" href="pink.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+
+
+
+
+
+    <input type="checkbox" class="toggle-nav" id="toggle-nav">
+    <div class="mobile-bar">
+        <label for="toggle-nav"></label>
+    </div>
+
+    <div class="container">
+
+
+        <header class="header">
+            <div class="profile">
+                <img src="images/face1.jpg"></img>
+                <h2 style="font-weight:400;">tijeco</h2>
+                <h2 style="font-weight:100;color:grey;">T. Jeffrey Cole</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li id="active"><i class="fa fa-home" > </i><a href="#">Home</a></li>
+                    <li><i class="fa fa-user"> </i><a href="#">About</a></li>
+                    <li><i class="fa fa-bar-chart"> </i><a href="#">Research</a></li>
+                    <li><i class="fa fa-book"> </i><a href="#">Publications</a></li>
+                    <li><i class="fa fa-folder"> </i><a href="#">Projects</a></li>
+                    <li><i class="fa fa-pencil"> </i><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <div id="face" class="namebox-face">
+            <!-- <h1 style="position:fixed;"> tijeco</h1> -->
+            <!-- <h1> T. Jeffrey Cole</h1>
+           <h2> Ph.D. student, East Carolina University</h2>
+           <h3>Bioinformatics and Evolutionary Genomics</h3>
+           <button class="button button5">ABOUT ME</button> -->
+            <img src="images/face1.jpg"></img>
+
+            <span class="text">
+
+
+           <span class="pal white">{</span>
+            <span class="pal">timothy</span>
+            <span class="pal">jeffrey </span>
+            <span class="pal">cole</span>
+
+            <span class="pal white">}</span>
+            <br />
+
+            </span>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+            <script>
+                $(".text").hover(function() {
+                    $(".pal").toggleClass("palHover");
+                });
+
+
+
+                //# sourceURL=pen.js
+            </script>
+        </div>
+
+        <section class="content">
+
+            <div class="namebox">
+                <h1> T. Jeffrey Cole</h1>
+                <h2> Ph.D. student, East Carolina University</h2>
+                <h3>Bioinformatics and Evolutionary Genomics</h3>
+                <button class="button button5">ABOUT ME</button>
+
+            </div>
+            <div class="paper">
+                <h1 style="text-align:center">Welcome</h1>
+
+                <p>
+                    I'm going to try to use this site to share some of the projects I’m currently involved with in my research, perhaps even a few guides on certain topics I find of interest. This site is also serving as an opportunity for me to hone web development skills! So things may get shaky here and there, but jopefully this will be a great learning experience! Updates may not be as frequent as I would like,but I will attempt to keep this site filled with the most amazing content anyone has ever seen.
+                </p>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, deserunt eum modi voluptate laboriosam voluptates facere quo eius ullam est quas, facilis obcaecati! Commodi eveniet repellat omnis! Molestiae, aperiam, vel!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, deserunt eum modi voluptate laboriosam voluptates facere quo eius ullam est quas, facilis obcaecati! Commodi eveniet repellat omnis! Molestiae, aperiam, vel!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, deserunt eum modi voluptate laboriosam voluptates facere quo eius ullam est quas, facilis obcaecati! Commodi eveniet repellat omnis! Molestiae, aperiam, vel!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, deserunt eum modi voluptate laboriosam voluptates facere quo eius ullam est quas, facilis obcaecati! Commodi eveniet repellat omnis! Molestiae, aperiam, vel!</p> -->
+            </div>
+        </section>
+
+        <footer class="footer" style="color:white;">
+            <h1><a href="#" class="fa fa-envelope" href=></a>  <a href="#" class="fa fa-twitter"></a> <a href="#" class="fa fa-github"></a> <a href="#" class="fa fa-linkedin"></a></h1>
+            <p>Developed by <a id="developer" href="https://github.com/tijeco" target="_blank" rel="nofollow">tijeco.</a></p>
+        </footer>
+    </div>
+
+</body>
+
+
+
+</html>

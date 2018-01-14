@@ -1,0 +1,327 @@
+* {
+  z-index: -1;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-smoothing: antialiased;
+  osx-font-smoothing: grayscale;
+  height: 100%;
+
+}
+
+
+.header{
+	display: none;
+   /* height: 100px; */
+}
+.container {
+   /* margin-left: 100%; */
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #333;
+  z-index: 0;
+  -webkit-transition: all 0.75s cubic-bezier(0.77, 0.06, 0.28, 0.85);
+  transition: all 0.75s cubic-bezier(0.77, 0.06, 0.28, 0.85);
+}
+.container.push {
+  margin-left: 100%;
+}
+#namebox{
+   border-style: solid;
+   border-color: black;
+   border-width: thin;
+	font-family: "Open Sans";
+
+	color:white;
+	text-align: center;
+	background: pink;
+	height: 50vh  ;
+	/*height: relative;*/
+	/*width: 100px;*/
+	background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url('http://www.tijeco.info/wp-content/uploads/2016/10/ee3db4082cf61c3e815d4401ee514793e272e3dd1ab51047_1920.jpg') no-repeat;
+  background-size: cover;
+
+}
+
+#nametext{
+	margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#welcome{
+   border-style: dashed;
+	background: green;
+	height:75vh;
+	/* padding: 0px; */
+}
+
+.paper{
+ /* padding-top: 0px; */
+	background:white;
+  /* margin-right: auto; */
+  /* margin-top: inherit; */
+
+  height: 100%;
+  /* width: 95%; */
+
+}
+#menu-trigger {
+   border-radius: 50%;
+	height: 50px;
+	width: 50px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 99;
+  background: #fff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+
+}
+
+#menu-trigger:hover {
+  cursor: pointer;
+}
+
+
+.menu {
+  position: fixed;
+  top: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #3A539B;
+  -webkit-transition: all 0.75s cubic-bezier(.77,.06,.28,.85);
+  transition: all 0.75s cubic-bezier(.77,.06,.28,.85);
+  /* text-align: center; */
+  text-decoration: none;
+}
+.menu.open {
+
+  left: 0;
+  -webkit-box-shadow: 1px 0px 5px #222;
+          box-shadow: 1px 0px 5px #222;
+}
+
+
+.menu ul{
+   margin: 0; /* To remove default bottom margin */
+    padding: 0; /* To remove default left padding */
+}
+/* .nav__list{
+
+   border-style: dashed;
+   list-style:none;
+   text-decoration: none;
+
+
+
+}
+
+.nav__item{
+   border-top: 1px solid grey;
+   border-bottom: 1px solid black;
+    padding: 0px;
+
+
+
+
+
+
+}
+
+.nav__item a{
+   box-shadow:        -8px 0 6px -6px black;
+   color: white;
+   /* display:inline-block;
+   padding: 20px; */
+   /* margin: 0px; */
+   /* display: block; */
+   /* width: 100%;
+   height: 100%; */
+   /* padding-top: 15px;
+   padding-bottom:15px; */
+   /* padding-left: 10px; */
+   /* margin-bottom: 100px; */
+
+
+
+
+
+/* } */
+
+/* .nav__item i{ */
+   /* padding: 20px;
+   line-height: 50px; */
+   /* width: 40px;
+   color: grey;
+   font-size: 30px; */
+
+   /* display:inline-block; */
+   /* border-right: 1px solid grey; */
+
+/* } */
+
+/* a:-webkit-any-link {
+
+    text-decoration: none; */
+
+/* } */
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.button5 {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.button5:hover {
+    background-color: white;
+    color: black;
+}
+
+#paper{
+   display: none;
+   color: white;
+}
+.profile{
+   height: 250px;
+   /* position:fixed; */
+
+   /* border-style: dashed; */
+   background-color: rgb(44,44,44);
+   text-align: center;
+   padding: 20px;
+   color: white;
+   font-family: "Open Sans";
+
+}
+.profile img{
+   border-radius: 50%;
+   height: 10em;
+   width: 10em;
+}
+
+.profile h1{
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   line-height:10px;
+}
+
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(48,48,48);
+    /* position: fixed; */
+    height: relative;
+    overflow: auto;
+
+}
+
+ul.sidenav li{
+
+   background-clip: content-box; /* so that the background color is not below the border */
+
+  border-bottom: 2px solid rgb(44,44,44);
+  border-image: linear-gradient(to left, rgb(44), 100%, rgba(0,0,0,0) 50%); /* to top - at 50% transparent */
+  border-image-slice: 1;
+
+
+
+}
+
+ul.sidenav li a {
+   background-clip: content-box; /* so that the background color is not below the border */
+
+  border-top: 2px solid rgb(55,55,55);
+  border-image: linear-gradient(to left, rgb(55), rgba(0,0,0,0) 50%); /* to top - at 50% transparent */
+  border-image-slice: 1;
+    display: block;
+   color: rgb(204,204,204);
+   font-family: "Open Sans";
+   font-weight: bold;
+   font-size: 1em;
+
+
+    /* padding: 8px 0px; */
+
+    text-decoration: none;
+
+
+}
+
+ul.sidenav li a i{
+   text-align: center;
+   font-size: 1.5em;
+box-shadow:   inset     -8px 0 6px -6px black;
+    display: inline-block;
+    width: 30px;
+   padding: 0.5em;
+
+
+
+   /* width: 10%; */
+}
+
+/* ul.sidenav li a.active {
+    background-color: #4CAF50;
+    color: white;
+} */
+
+ul.sidenav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.bottom{
+   /* position: fixed; */
+   display: inline-block;
+   height: relative;
+   width: 100%;
+   background-color: rgb(32,32,32);
+   text-align: center;
+   /* line-height: 50px; */
+   padding-top:  30px;
+   color: white;
+   /* font-size: 20px; */
+}
+/* .shadow-line{
+   display: inline-block;
+   width: 10px;
+   height: 30px;
+   background-color: red;
+   border-style: dashed;
+} */
