@@ -1,0 +1,15 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "tijeco"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+canonifyurls = true
+MetaDataFormat = "toml"
+[indexes]
+    category = "categories"
+    tag = "tags"
+[author]
+    name = "your name here"

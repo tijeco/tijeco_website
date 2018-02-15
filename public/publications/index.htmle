@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html  lang="en-us">
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Inconsolata'>
+<style class="cp-pen-styles">
+     
+
+    .text {
+        display: block;
+        font-family: 'Inconsolata', serif;
+        font-size: 40px;
+        padding-top: 15px;
+    }
+
+    .pal {
+        margin-right: -18px;
+        max-width: 40px;
+         
+        position: relative;
+         
+        padding: 0px;
+        overflow: hidden;
+        display: inline-block;
+        color: #03cc85;
+        -webkit-transition: max-width 0.5s ease-in;
+        -o-transition: max-width 0.5s ease-in;
+        -moz-transition: max-width 0.5s ease-in;
+        transition: max-width 0.5s ease-in;
+    }
+
+    .palHover {
+        margin-right: -8px;
+        max-width: 250px;
+        -webkit-transition: max-width 0.5s ease-in;
+        -o-transition: max-width 0.5s ease-in;
+        -moz-transition: max-width 0.5s ease-in;
+        transition: max-width 0.5s ease-in;
+    }
+
+    .subPal {
+        font-size: 20px;
+        display: inline-block;
+        line-height: 10px;
+    }
+
+    .white {
+        color: #fff;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tijeco</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,400,700">
+    <link rel="stylesheet" href="/css/pink.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+
+
+
+
+
+    <input type="checkbox" class="toggle-nav" id="toggle-nav">
+    <div class="mobile-bar">
+        <label for="toggle-nav"></label>
+    </div>
+
+    <div class="container">
+
+
+        <header class="header">
+            <div class="profile">
+                <img src="/images/face1.jpeg"></img>
+                <h2 style="font-weight:400;">tijeco</h2>
+                <h2 style="font-weight:100;color:grey;">T. Jeffrey Cole</h2>
+            </div>
+            <nav>
+	 <ul>
+		  <li><i class="fa fa-home"> </i><a href="/">Home</a></li>
+		  <li><i class="fa fa-user"> </i><a href="/about">About</a></li>
+		  <li><i class="fa fa-bar-chart"> </i><a href="/research">Research</a></li>
+		  <li><i class="fa fa-book"> </i><a href="/publications">Publications</a></li>
+		  <li><i class="fa fa-folder"> </i><a href="/projects">Projects</a></li>
+		  <li><i class="fa fa-pencil"> </i><a href="http://www.blog.tijeco.info">Blog</a></li>
+	 </ul>
+</nav>
+
+
+        </header>
+
+        <div id="face" class="namebox-face">
+	 
+	 
+	 <img src="/images/face1.jpeg"></img>
+
+	 <span class="text">
+
+
+	<span class="pal white">{</span>
+	 <span class="pal">timothy</span>
+	 <span class="pal">jeffrey </span>
+	 <span class="pal">cole</span>
+
+	 <span class="pal white">}</span>
+	 <br />
+
+	 </span>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	 <script>
+		  $(".text").hover(function() {
+				$(".pal").toggleClass("palHover");
+		  });
+
+
+
+		  
+	 </script>
+</div>
+
+
+        <section class="content">
+
+
+            <div class="paper">
+                
+
+                
+
+<h1 id="recent-publications">Recent publications</h1>
+
+<div class="pub-list-item" style="margin-bottom: 2rem">
+<i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+<span itemprop="author">TJ Cole</span>, MS Brewer.
+<a href="#" target="_blank" rel="noopener" itemprop="name">toxify: a deep learning approach to classifying animal venom proteins</a>. (In prep), 2018.
+
+<div>
+<a class="button6" href="https://github.com/tijeco/toxify" target="_blank" rel="noopener">Source Code</a>
+</div>
+</div>
+
+<p></a>
+<div class="pub-list-item" style="margin-bottom: 2rem">
+<i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+<span itemprop="author">TJ Cole</span>, MS Brewer.
+<a href="https://peerj.com/articles/4234/" target="_blank" rel="noopener" itemprop="name">FUSTr: a tool for finding Families Under Selection in Transcriptomes</a>. In <em>PeerJ</em>, 2018.
+<div>
+<a class="button6" href="https://peerj.com/articles/4234.pdf" target="_blank" rel="noopener">PDF</a>
+<a class="button6" href="https://github.com/tijeco/FUSTr" target="_blank" rel="noopener">Source Code</a>
+</div>
+</div></p>
+
+<p></a>
+<div class="pub-list-item" style="margin-bottom: 2rem">
+<i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+<span itemprop="author">TJ Cole</span>, RA Hataway.
+<a href="http://www.bioone.org/doi/abs/10.1656/058.015.0407?journalCode=sena" target="_blank" rel="noopener" itemprop="name">Prescribed burning affects a measure of fitness in Ctenus hibernalis (Araneae:Ctenidae) at Oak Mountain State Park, Shelby County, Alabama</a>. In <em>Southeastern Naturalist</em>, 2018.
+<div>
+<a class="button6" href="https://peerj.com/articles/4234.pdf" target="_blank" rel="noopener">PDF</a></p>
+
+<p></div>
+</div></p>
+
+<h2> <a href="#" class="fa fa-download" style="padding-right:15px;"></a>CV</h2>
+
+                
+            </div>
+        </section>
+
+        <footer class="footer" style="color:white;">
+	 <h1><a href="#" class="fa fa-envelope" href=></a>  <a href="#" class="fa fa-twitter"></a> <a href="#" class="fa fa-github"></a> <a href="#" class="fa fa-linkedin"></a></h1>
+	 <p>Developed by <a id="developer" href="https://github.com/tijeco" target="_blank" rel="nofollow">tijeco.</a></p>
+</footer>
+
+    </div>
+
+</body>
+
+
+
+</html>

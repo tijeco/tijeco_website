@@ -1,0 +1,51 @@
+{{ partial "head.html" . }}
+<body>
+
+
+
+
+
+    <input type="checkbox" class="toggle-nav" id="toggle-nav">
+    <div class="mobile-bar">
+        <label for="toggle-nav"></label>
+    </div>
+
+    <div class="container">
+
+
+        <header class="header">
+            <div class="profile">
+                <img src="{{ .Site.BaseURL }}images/face1.jpeg"></img>
+                <h2 style="font-weight:400;">tijeco</h2>
+                <h2 style="font-weight:100;color:grey;">T. Jeffrey Cole</h2>
+            </div>
+            {{ partial "nav.html" . }}
+
+        </header>
+
+        {{ partial "profile.html" . }}
+
+        <section class="content">
+
+            {{ partial "namebox.html" . }}
+            <div class="paper">
+                <h1 style="text-align:center">Welcome</h1>
+
+                <p>
+                    I'm going to try to use this site to share some of the projects I’m currently involved with in my research, perhaps even a few guides on certain topics I find of interest. This site is also serving as an opportunity for me to hone web development skills! So things may get shaky here and there, but jopefully this will be a great learning experience! Updates may not be as frequent as I would like,but I will attempt to keep this site filled with the most amazing content anyone has ever seen.
+                </p>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, deserunt eum modi voluptate laboriosam voluptates facere quo eius ullam est quas, facilis obcaecati! Commodi eveniet repellat omnis! Molestiae, aperiam, vel!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, deserunt eum modi voluptate laboriosam voluptates facere quo eius ullam est quas, facilis obcaecati! Commodi eveniet repellat omnis! Molestiae, aperiam, vel!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, deserunt eum modi voluptate laboriosam voluptates facere quo eius ullam est quas, facilis obcaecati! Commodi eveniet repellat omnis! Molestiae, aperiam, vel!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, deserunt eum modi voluptate laboriosam voluptates facere quo eius ullam est quas, facilis obcaecati! Commodi eveniet repellat omnis! Molestiae, aperiam, vel!</p> -->
+            </div>
+        </section>
+
+        {{ partial "footer.html"     . }}
+    </div>
+
+</body>
+
+
+
+</html>
