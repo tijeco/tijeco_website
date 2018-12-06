@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.1.1">
+  <meta name="generator" content="Hugo 0.51" />
+  <meta name="author" content="T. Jeffrey Cole">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Tutorial for BIOL 6210 (Applied Pylogentics)">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/molecularevolutiontutorial/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="hsl(159, 97%, 41%)">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="tijeco">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="tijeco">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/molecularevolutiontutorial/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@wandering_jeff">
+  <meta property="twitter:creator" content="@wandering_jeff">
+  
+  <meta property="og:site_name" content="tijeco">
+  <meta property="og:url" content="/post/molecularevolutiontutorial/">
+  <meta property="og:title" content="Molecular Evolution Tutorial | tijeco">
+  <meta property="og:description" content="Tutorial for BIOL 6210 (Applied Pylogentics)">
+  
+  
+    
+  <meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2017-04-18T00:00:00-04:00">
+  
+  <meta property="article:modified_time" content="2017-04-18T00:00:00-04:00">
+  
+
+  
+
+  
+
+  <title>Molecular Evolution Tutorial | tijeco</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" class="dark">
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header fixed-top">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">tijeco</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Projects</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/tags/bioinformatics">
+                
+                <span>bioinformatics</span>
+                
+              </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/tags/evolution">
+                
+                <span>evolution</span>
+                
+              </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/tags/protein">
+                
+                <span>protein</span>
+                
+              </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/tags/spider">
+                
+                <span>spider</span>
+                
+              </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/tags/venom">
+                
+                <span>venom</span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/cv/cv_2018.pdf">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Molecular Evolution Tutorial</h1>
+
+  
+  <p class="page-subtitle">Tutorial for BIOL 6210 (Applied Pylogentics)</p>
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Jeff Cole</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2017-04-18 00:00:00 -0400 EDT" itemprop="datePublished">
+    <time datetime="2017-04-18 00:00:00 -0400 EDT" itemprop="dateModified">
+      Apr 18, 2017
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="T. Jeffrey Cole">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Molecular%20Evolution%20Tutorial&amp;url=%2fpost%2fmolecularevolutiontutorial%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2fmolecularevolutiontutorial%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fmolecularevolutiontutorial%2f&amp;title=Molecular%20Evolution%20Tutorial"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fmolecularevolutiontutorial%2f&amp;title=Molecular%20Evolution%20Tutorial"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Molecular%20Evolution%20Tutorial&amp;body=%2fpost%2fmolecularevolutiontutorial%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h1 id="hyphy-stuff-all-files-need-for-this-tutorial-are-here-https-github-com-tijeco-molecularevolutiontutorial-raw-master-codeml-files-zip">HYPHY stuff: all files need for this tutorial are <strong><a href="https://github.com/tijeco/MolecularEvolutionTutorial/raw/master/CodeML.files.zip" target="_blank">here</a></strong></h1>
+
+<h1 id="identification-of-pervasive-positive-selection-in-cone-snail-venom">Identification of pervasive positive selection in cone snail venom</h1>
+
+<p><strong>1.</strong> Get the file <strong><em>Conus.01.fas</em></strong>
+* This is our translated alignment</p>
+
+<p><img src="http://www.tijeco.info/wp-content/uploads/2017/04/Superfamily-O1-1.png" alt="alt tag" /></p>
+
+<p><strong>2.</strong> We will now do the FUBAR analysis
+* This is a site specific method for detecting selection at the amino acid level, helpful in arms race scenarios</p>
+
+<p><strong>3.</strong> Go to <a href="http://www.datamonkey.org/dataupload.php" target="_blank">http://www.datamonkey.org/dataupload.php</a></p>
+
+<p>**4. ** Select  choose file, select <strong><em>Conus.01.fas</em></strong>
+* Then, press <strong><em>Upload</em></strong></p>
+
+<p><strong><em>5.</em></strong> If your data is no bueno, this is where it will let you know
+* It accepts fasta alignments and nexus files
+* Also listed here should be information about the alignments
+* If all is well, press <strong><em>Proceed to the analysis menu</em></strong></p>
+
+<p><strong>6.</strong> Under <strong><em>Method</em></strong> select <strong><em>FUBAR</em></strong></p>
+
+<p><strong>7.</strong> For now leave everything else alone and just press <strong><em>Run</em></strong>
+* If you had a nexus file, you could specify your own tree in Newick format
+* For now we&rsquo;ll just let it use a generated neighbor joining tree
+ 😢</p>
+
+<p><strong>8.</strong> The results will look like the following <img src="https://raw.githubusercontent.com/tijeco/MolecularEvolutionTutorial/master/fubarResults.png" alt="This file is gone now" /></p>
+
+<ul>
+<li>This is a heat map showing sites are under positive selection and negative selection</li>
+</ul>
+
+<hr />
+
+<h1 id="paml-stuff">PAML stuff</h1>
+
+<h2 id="identification-of-positive-seleciton-in-the-serine-threonine-protein-kinase-gene-family">Identification of positive seleciton in the serine/threonine-protein kinase gene family</h2>
+
+<ul>
+<li>In the evolution vertebrates, we would like to know if the branch leading to the Teleost fishes (genes A50 to A54)</li>
+</ul>
+
+<p>You will need the following files</p>
+
+<p><strong>1. TF105351.Eut.3.phy</strong><br>
+* this is the alignment file</p>
+
+<p><img src="https://3.bp.blogspot.com/-LxFevYQBQ7I/TnN0vARVO4I/AAAAAAAAABM/PAxYkWUTQcw/s320/TF105351.Eut.3.aln.png" alt="alt tag" /></p>
+
+<p><strong>2. TF105351.Eut.3.53876.tree</strong>
+* this is the newick tree with the branch of interest selected</p>
+
+<p><img src="https://2.bp.blogspot.com/-QCyFGC6o2zQ/Uad84nz-S3I/AAAAAAAAAEg/W12U2V0CizQ/s1600/Tree.png" alt="alt tag" /></p>
+
+<p><strong>3. TF105351.Eut.3.53876.ctl</strong>
+* CodeML configuration file for <strong><em>alternative model</em></strong></p>
+
+<p><strong>4. TF105351.Eut.3.53876.fixed.ctl</strong>
+* CodeML configuration file for <strong><em>null model</em></strong></p>
+
+<h3 id="run-the-following-commands">Run the following commands</h3>
+
+<pre><code class="language-bash">codeml TF105351.Eut.3.53876.ctl
+codeml TF105351.Eut.3.53876.fixed.ctl
+</code></pre>
+
+<h3 id="analyze-results">Analyze results</h3>
+
+<p>Get liklihood values</p>
+
+<pre><code>grep lnL TF105351.Eut.3.53876.mlc
+</code></pre>
+
+<pre><code>lnL(ntime: 41  np: 46):  -4707.209701      +0.000000
+</code></pre>
+
+<p>Liklihood value for alternative model is <strong>-4707.209701</strong></p>
+
+<pre><code>grep lnL TF105351.Eut.3.53876.fixed.mlc
+</code></pre>
+
+<pre><code>lnL(ntime: 41  np: 45):  -4710.222252      +0.000000
+</code></pre>
+
+<p>Liklihood value for null model is <strong>-4710.222252</strong></p>
+
+<p>ΔLRT = 2×(lnL1 - lnL0) = 2×(-4707.209701 - (-4710.222252)) = 6.02578</p>
+
+<p>The degree of freedom is 1 (np1 - np0 = 46 - 45).
+p-value = 0.01098 (under χ²) =&gt; significant.</p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/tutorials/">tutorials</a>
+  
+</div>
+
+
+
+    
+
+
+
+  
+
+
+
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/post/reproducibilitytutorial/">Reproducubility Tutorial</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="/privacy/"></a>
+  </p>
+  
+
+  <p class="powered-by">
+    &copy; 2018 tijeco &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.74b0d3361475b08c40cf31120e82937b.js"></script>
+
+    
+
+  </body>
+</html>
+

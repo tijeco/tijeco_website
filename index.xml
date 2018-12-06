@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tijeco on tijeco</title>
+    <link>/</link>
+    <description>Recent content in tijeco on tijeco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 tijeco</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Example Page</title>
+      <link>/tutorial/example/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/tutorial/example/</guid>
+      <description>
+
+&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FUSTr: a tool to find gene families under selection in transcriptomes</title>
+      <link>/publication/fustr/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/publication/fustr/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>toxify: a deep learning aproach to classifying animal venom proteins</title>
+      <link>/publication/toxify/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/publication/toxify/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Molecular Evolution Tutorial</title>
+      <link>/post/molecularevolutiontutorial/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/post/molecularevolutiontutorial/</guid>
+      <description>
+
+&lt;h1 id=&#34;hyphy-stuff-all-files-need-for-this-tutorial-are-here-https-github-com-tijeco-molecularevolutiontutorial-raw-master-codeml-files-zip&#34;&gt;HYPHY stuff: all files need for this tutorial are &lt;strong&gt;&lt;a href=&#34;https://github.com/tijeco/MolecularEvolutionTutorial/raw/master/CodeML.files.zip&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;h1 id=&#34;identification-of-pervasive-positive-selection-in-cone-snail-venom&#34;&gt;Identification of pervasive positive selection in cone snail venom&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Get the file &lt;strong&gt;&lt;em&gt;Conus.01.fas&lt;/em&gt;&lt;/strong&gt;
+* This is our translated alignment&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.tijeco.info/wp-content/uploads/2017/04/Superfamily-O1-1.png&#34; alt=&#34;alt tag&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2.&lt;/strong&gt; We will now do the FUBAR analysis
+* This is a site specific method for detecting selection at the amino acid level, helpful in arms race scenarios&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Go to &lt;a href=&#34;http://www.datamonkey.org/dataupload.php&#34; target=&#34;_blank&#34;&gt;http://www.datamonkey.org/dataupload.php&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;**4. ** Select  choose file, select &lt;strong&gt;&lt;em&gt;Conus.01.fas&lt;/em&gt;&lt;/strong&gt;
+* Then, press &lt;strong&gt;&lt;em&gt;Upload&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;5.&lt;/em&gt;&lt;/strong&gt; If your data is no bueno, this is where it will let you know
+* It accepts fasta alignments and nexus files
+* Also listed here should be information about the alignments
+* If all is well, press &lt;strong&gt;&lt;em&gt;Proceed to the analysis menu&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6.&lt;/strong&gt; Under &lt;strong&gt;&lt;em&gt;Method&lt;/em&gt;&lt;/strong&gt; select &lt;strong&gt;&lt;em&gt;FUBAR&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;7.&lt;/strong&gt; For now leave everything else alone and just press &lt;strong&gt;&lt;em&gt;Run&lt;/em&gt;&lt;/strong&gt;
+* If you had a nexus file, you could specify your own tree in Newick format
+* For now we&amp;rsquo;ll just let it use a generated neighbor joining tree
+ 😢&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;8.&lt;/strong&gt; The results will look like the following &lt;img src=&#34;https://raw.githubusercontent.com/tijeco/MolecularEvolutionTutorial/master/fubarResults.png&#34; alt=&#34;This file is gone now&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This is a heat map showing sites are under positive selection and negative selection&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;paml-stuff&#34;&gt;PAML stuff&lt;/h1&gt;
+
+&lt;h2 id=&#34;identification-of-positive-seleciton-in-the-serine-threonine-protein-kinase-gene-family&#34;&gt;Identification of positive seleciton in the serine/threonine-protein kinase gene family&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In the evolution vertebrates, we would like to know if the branch leading to the Teleost fishes (genes A50 to A54)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You will need the following files&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. TF105351.Eut.3.phy&lt;/strong&gt;&lt;br&gt;
+* this is the alignment file&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://3.bp.blogspot.com/-LxFevYQBQ7I/TnN0vARVO4I/AAAAAAAAABM/PAxYkWUTQcw/s320/TF105351.Eut.3.aln.png&#34; alt=&#34;alt tag&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. TF105351.Eut.3.53876.tree&lt;/strong&gt;
+* this is the newick tree with the branch of interest selected&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://2.bp.blogspot.com/-QCyFGC6o2zQ/Uad84nz-S3I/AAAAAAAAAEg/W12U2V0CizQ/s1600/Tree.png&#34; alt=&#34;alt tag&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. TF105351.Eut.3.53876.ctl&lt;/strong&gt;
+* CodeML configuration file for &lt;strong&gt;&lt;em&gt;alternative model&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. TF105351.Eut.3.53876.fixed.ctl&lt;/strong&gt;
+* CodeML configuration file for &lt;strong&gt;&lt;em&gt;null model&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;run-the-following-commands&#34;&gt;Run the following commands&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;codeml TF105351.Eut.3.53876.ctl
+codeml TF105351.Eut.3.53876.fixed.ctl
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;analyze-results&#34;&gt;Analyze results&lt;/h3&gt;
+
+&lt;p&gt;Get liklihood values&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;grep lnL TF105351.Eut.3.53876.mlc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;lnL(ntime: 41  np: 46):  -4707.209701      +0.000000
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Liklihood value for alternative model is &lt;strong&gt;-4707.209701&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;grep lnL TF105351.Eut.3.53876.fixed.mlc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;lnL(ntime: 41  np: 45):  -4710.222252      +0.000000
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Liklihood value for null model is &lt;strong&gt;-4710.222252&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ΔLRT = 2×(lnL1 - lnL0) = 2×(-4707.209701 - (-4710.222252)) = 6.02578&lt;/p&gt;
+
+&lt;p&gt;The degree of freedom is 1 (np1 - np0 = 46 - 45).
+p-value = 0.01098 (under χ²) =&amp;gt; significant.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reproducubility Tutorial</title>
+      <link>/post/reproducibilitytutorial/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/post/reproducibilitytutorial/</guid>
+      <description>
+
+&lt;h2 id=&#34;topics-to-be-covered&#34;&gt;Topics to be covered&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Anaconda&lt;/li&gt;
+&lt;li&gt;Snakemake&lt;/li&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;let-s-try-to-make-a-small-bioinformatics-pipeline&#34;&gt;Let&amp;rsquo;s try to make a small bioinformatics pipeline&lt;/h1&gt;
+
+&lt;p&gt;Let&amp;rsquo;s say we have some FASTA files containing protein sequences, and we&amp;rsquo;d like to make a phylogeny with those sequences.&lt;/p&gt;
+
+&lt;p&gt;To do this we would make the following bash script, called &lt;code&gt;butterbean.sh&lt;/code&gt;
+It would look like the following&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
+mafft --auto --phylipout  $1 &amp;gt; $1.aln
+fasttree  $1.aln  &amp;gt; $1.tree
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Data for the pipeline!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Create a file called &lt;code&gt;ex1.fasta&lt;/code&gt; from &lt;a href=&#34;https://raw.githubusercontent.com/tijeco/ReproducibilityTutorial/master/ex1.fasta&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;the-pipeline-works-the-following-way&#34;&gt;The pipeline works the following way:&lt;/h2&gt;
+
+&lt;p&gt;First, &lt;code&gt;mafft&lt;/code&gt; takes as input a fasta file of protein sequences as from input file the first argument &lt;code&gt;$1&lt;/code&gt;, in this case &lt;code&gt;ex1.fasta&lt;/code&gt;. The program then automatically chooses the best algorithm for generating an alignment as prompted by &lt;code&gt;--auto&lt;/code&gt;, it then produces a multiple sequence alignment named &lt;code&gt;ex1.fasta.aln&lt;/code&gt;  from &lt;code&gt;$1.aln&lt;/code&gt;
+ Then, &lt;code&gt;fasttree&lt;/code&gt; takes as input the ouput from &lt;code&gt;mafft&lt;/code&gt; referenced as &lt;code&gt;$1.aln&lt;/code&gt; in our case known as &lt;code&gt;ex1.fasta.aln&lt;/code&gt;. It then prodeces a newick format phylogeny of the sequences in the file referenced as &lt;code&gt;$1.tree&lt;/code&gt; in our case ex1.fasta.tree&lt;/p&gt;
+
+&lt;h2 id=&#34;running-our-pipeline&#34;&gt;Running our pipeline&lt;/h2&gt;
+
+&lt;p&gt;Issue the folowing command to run the pipeline &lt;code&gt;butterbean.sh&lt;/code&gt; on our data  &lt;code&gt;ex1.fasta&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;bash butterbean.sh ex1.fasta
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;what-did-the-output-look-like&#34;&gt;What did the output look like?&lt;/h2&gt;
+
+&lt;p&gt;You may have received the following error message&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;butterbean.sh: line 2: mafft: command not found
+butterbean.sh: line 3: fasttree: command not found
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;what-went-wrong&#34;&gt;What went wrong????? 😭 😭 😭&lt;/h2&gt;
+
+&lt;p&gt;Well,&lt;code&gt;mafft&lt;/code&gt; and &lt;code&gt;fasttree&lt;/code&gt; are dependencies for &lt;code&gt;butterbean&lt;/code&gt; and &lt;strong&gt;must&lt;/strong&gt; be installed on your system in order to work properly.&lt;/p&gt;
+
+&lt;p&gt;If only there were a system in place for managing software packages and dependencies&amp;hellip;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/br&gt;
+&lt;/br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://conda.io/docs/_images/conda_logo.svg&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/br&gt;
+Software package dependency and environment management system.&lt;/p&gt;
+
+&lt;p&gt;Allows for easy version control!&lt;/p&gt;
+
+&lt;h2 id=&#34;make-a-conda-environment-for-butterbean-s-dependencies&#34;&gt;Make a conda environment for butterbean&amp;rsquo;s dependencies&lt;/h2&gt;
+
+&lt;p&gt;Make a file called &lt;code&gt;butterbean.requirements.txt&lt;/code&gt; with the following information in it&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mafft=7.310
+fasttree=2.1.9
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This file can be used to create a conda environment called &lt;strong&gt;{your_name_here}_butterbean&lt;/strong&gt; using the following command&lt;/p&gt;
+
+&lt;h3 id=&#34;do-not-use-upper-case-in-your-name-here&#34;&gt;DO NOT USE UPPER CASE IN {your_name_here}&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;conda create --name {your_name_here}_butterbean -c bioconda --file butterbean.requirements.txt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Issue the following command to activate this environment&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;source activate {your_name_here}_butterbean
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now we can rerun the pipeline&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;bash butterbean.sh ex1.fasta
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Hopefully it actually worked!&lt;/p&gt;
+
+&lt;p&gt;You should have a tree!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What if we wanted to run our pipeline on hundreds of fasta files?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Can we add multithread support?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Can we have the dependencies automatically install themselves?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;snakemake&#34;&gt;&lt;strong&gt;Snakemake&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://bitbucket-assetroot.s3.amazonaws.com/c/photos/2012/Dec/31/snakemake-logo-1807870285-12_avatar.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a workflow management system that can increase the usability and reproducibility of our pipeline&lt;/p&gt;
+
+&lt;h2 id=&#34;setup-conda-environments&#34;&gt;Setup conda environments&lt;/h2&gt;
+
+&lt;p&gt;First, we need to take care of dependencies. We can set up conda environments for snakemake to setup and run on the fly during analysis&lt;/p&gt;
+
+&lt;p&gt;make a directory called &lt;code&gt;envs&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;In that directory, make the file &lt;code&gt;envs/mafft.yaml&lt;/code&gt; with the following contents&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;channels:
+  - bioconda
+dependencies:
+  - mafft=7.310
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Make another file &lt;code&gt;envs/fasttree.yaml&lt;/code&gt; with the following contents&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;channels:
+  - bioconda
+dependencies:
+  - fasttree=2.1.9
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;make-snakefile&#34;&gt;Make Snakefile&lt;/h2&gt;
+
+&lt;p&gt;Make a file called &lt;code&gt;Snakefile&lt;/code&gt; with the following information in it&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;SAMPLES, = glob_wildcards(&amp;quot;{sample}.fasta&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This uses wild cards to find all files that end in &lt;strong&gt;.fasta&lt;/strong&gt; that will be used by the pipeline&lt;/p&gt;
+
+&lt;p&gt;Add the final subroutine to &lt;code&gt;Snakefile&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
+rule final:
+    input:expand(&amp;quot;{sample}.tree&amp;quot;,sample=SAMPLES)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, add the first subroutine&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;rule mafft:
+    input:
+        &amp;quot;{sample}.fasta&amp;quot;
+    output:
+        &amp;quot;{sample}.aln&amp;quot;
+    conda:
+        &amp;quot;envs/mafft.yaml&amp;quot;
+    shell:
+        &amp;quot;mafft --auto --phylipout {input} &amp;gt; {output}&amp;quot;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, we add the second subroutine&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;rule fasttree:
+    input:
+        &amp;quot;{sample}.aln&amp;quot;
+    output:
+        &amp;quot;{sample}.tree&amp;quot;
+    conda:  
+        &amp;quot;envs/fasttree.yaml&amp;quot;
+    shell:
+        &amp;quot;fasttree  {input}  &amp;gt; {output}&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Altogether, the file looks like the following&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;SAMPLES, = glob_wildcards(&amp;quot;{sample}.fasta&amp;quot;)
+
+rule final:
+    input:expand(&amp;quot;{sample}.tree&amp;quot;,sample=SAMPLES)
+
+rule mafft:
+    input:
+        &amp;quot;{sample}.fasta&amp;quot;
+    output:
+        &amp;quot;{sample}.aln&amp;quot;
+    conda:
+        &amp;quot;envs/mafft.yaml&amp;quot;
+    shell:
+        &amp;quot;mafft --auto --phylipout {input} &amp;gt; {output}&amp;quot;
+
+rule fasttree:
+    input:
+        &amp;quot;{sample}.aln&amp;quot;
+    output:
+        &amp;quot;{sample}.tree&amp;quot;
+    conda:
+        &amp;quot;envs/fasttree.yaml&amp;quot;
+    shell:
+        &amp;quot;fasttree  {input}  &amp;gt; {output}&amp;quot;
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Run the pipeline with the following command&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;snakemake --use-conda
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;What if we want others to rerun our analysis on their computer with a non supported operating system?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Can we distribute our pipeline as a self contained virtual environment&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.docker.com/sites/default/files/social/docker_twitter_share.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Create a file &lt;code&gt;Dockerfile&lt;/code&gt; with the following information&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-Docker&#34;&gt;FROM ubuntu
+MAINTAINER Jeff Cole &amp;lt;coleti16@students.ecu.edu&amp;gt;
+
+
+RUN apt-get -qq update
+RUN apt-get install -y wget git build-essential cmake unzip curl
+RUN apt-get install -qqy python3-setuptools python3-docutils python3-flask
+RUN easy_install3 snakemake
+
+RUN echo &#39;export PATH=/opt/conda/bin:$PATH&#39; &amp;gt; /etc/profile.d/conda.sh &amp;amp;&amp;amp; \
+    wget --quiet https://repo.continuum.io/miniconda/Miniconda3-4.3.14-Linux-x86_64.sh -O ~/miniconda.sh &amp;amp;&amp;amp; \
+    /bin/bash ~/miniconda.sh -b -p /opt/conda &amp;amp;&amp;amp; \
+    rm ~/miniconda.sh
+
+ENV PATH /opt/conda/bin:$PATH
+
+WORKDIR /home/user/
+
+RUN git clone https://github.com/tijeco/ReproducibilityTutorial.git
+
+WORKDIR /home/user/ReproducibilityTutorial
+
+RUN ln -sf /bin/bash /bin/sh
+
+RUN snakemake --use-conda
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Build the docker container&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;docker build -t {your_name_here}_butterbean ./
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Run the docker container with the following command&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;docker run -it {your_name_here}_butterbean /bin/bash
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>/talk/example/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/talk/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;em&gt;Slides&lt;/em&gt; feature and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prescribed Burning Affects a Measure of Fitness in Ctenus hibernalis (Araneae: Ctenidae) at Oak Mountain State Park, Shelby County, AL</title>
+      <link>/publication/ctenus_hibernalis_sen/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/publication/ctenus_hibernalis_sen/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Characterization of venom proteins in ctenid spiders</title>
+      <link>/project/ctenus-venom-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/ctenus-venom-project/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FUSTr</title>
+      <link>/project/fustr-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/fustr-project/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Molecular evolution of sperm proteins in Danaus butterflies</title>
+      <link>/project/butterfly-sperm-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/butterfly-sperm-project/</guid>
+      <description>&lt;p&gt;Reproductive protein genes often undergo rapid evolution via a process known as adaptive evolution by receiving more positive selection than the average gene. The molecular evolution of sperm has become of distinct interest to evolutionary biologists due to the immense morphological diversity of sperm cells across taxa. Lepidopteran insects present a compelling model to investigate sperm evolution and diversity, because of their unique, dichotomous spermatogenesis in which they produce a fertilizing component (eupyrene sperm) and an incompetent sperm morph (apyrene sperm). We investigated the evolutionary rates of sperm protein genes of both sperm types in Danaus butterflies.  Knowing the ratio of nonsynonymous substitutions to synonymous substitutions of a gene provides insight into the rate of protein evolution relative to DNA evolution. We calculated pairwise dN/dS  ratios for all orthologous genes using genome assemblies from either Danaus gilippus or Danaus chrysippus  with reference to the Danaus plexippus genome assemblies.  We then used the apyrene and eupyrene sperm proteomes of D. plexippus to compare dN/dS  ratios of the sperm protein genes to the genomic average. We found no significant difference in neither the dN/dS  ratios  between  sperm proteins and the genomic average, nor the dN/dS  ratios  amongst the different sperm types in Danaus butterflies. Our results suggest that sperm proteins do not evolve rapidly in the same fashion that other reproductive proteins do. Further exploration into more taxa will be necessary to better understand the molecular evolution of sperm proteins in Lepidopteran insects.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prescribed burining effects on fitness in wandering spider populations</title>
+      <link>/project/hibernalis-burn-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/hibernalis-burn-project/</guid>
+      <description>&lt;p&gt;Fire suppression has greatly impacted the forest ecosystems of the southeastern United States. Fire-suppressed remnant longleaf pine forests in Oak Mountain State Park (OMSP; Pelham, AL) have undergone experimental prescribed burning as a means to restore the understory and overstory structure of a healthy montane longleaf pine forest. We studied the populations of a species of ground hunting spider Ctenus hibernalis as an indicator of understory arthropod response to prescribed burning. Study sites included regions burned one year prior to the study, five years prior, as well as a region that has experienced long-term fire suppression. No individuals of &lt;strong&gt;C. hibernalis&lt;/strong&gt; were found in the region burned one year prior. Overall, there was no significant difference in the total number of spiders in the fire-suppressed region and the region burned five years ago, but there was a significant difference in the weights of the two populations. Our results suggest that the prescribed burning is beneficial to C. hibernalis populations and positively affects their overall fitness levels.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Water quality near landfill with coal ash</title>
+      <link>/project/water-quality-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/water-quality-project/</guid>
+      <description>&lt;p&gt;Coal ash is a coal combustion residue that is a major byproduct of coal-powered electricity generation. Coal ash often contains contaminants including arsenic, boron, chromium, and sulfide. In 2008, Perry County’s Arrowhead landfill became the recipient of 2.3 million m3 of coal ash removed from the Emory and Clinch Rivers after a rupture of TVA Kingston Fossil Plant’s coal ash containment site. This landfill is adjacent to several residences and the upstream of small tributaries that run through fields of cattle and into local creeks. We surveyed surface water around the landfill in Summer 2013 and Jan 2014 to determine if the water quality was affected by the landfill. The conductivity, total dissolved solids, and arsenic concentration of the water directly running off and adjacent to the landfill were significantly higher than a control stream that does not interact with the landfill (P &amp;lt; 0.01). Arsenic levels were higher than EPA drinking water, but not surface water, guidelines. Concentrations of other indicators of coal ash such as boron, chromium, and sulfide were not significantly different from control. This preliminary evidence indicates that the landfill is having an effect on the water quality of tributaries to Chocolocco Creek. Coal ash is a coal combustion residue that is a major byproduct of coal-powered electricity generation. Coal ash often contains contaminants including arsenic, boron, chromium, and sulfide. In 2008, Perry County’s Arrowhead landfill became the recipient of 2.3 million m3 of coal ash removed from the Emory and Clinch Rivers after a rupture of TVA Kingston Fossil Plant’s coal ash containment site. This landfill is adjacent to several residences and the upstream of small tributaries that run through fields of cattle and into local creeks. We surveyed surface water around the landfill in Summer 2013 and Jan 2014 to determine if the water quality was affected by the landfill. The conductivity, total dissolved solids, and arsenic concentration of the water directly running off and adjacent to the landfill were significantly higher than a control stream that does not interact with the landfill (P &amp;lt; 0.01). Arsenic levels were higher than EPA drinking water, but not surface water, guidelines. Concentrations of other indicators of coal ash such as boron, chromium, and sulfide were not significantly different from control. This preliminary evidence indicates that the landfill is having an effect on the water quality of tributaries to Chocolocco Creek.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>toxify</title>
+      <link>/project/toxify-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/toxify-project/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>
+
+
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

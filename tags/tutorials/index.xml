@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tutorials on tijeco</title>
+    <link>/tags/tutorials/</link>
+    <description>Recent content in tutorials on tijeco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 tijeco</copyright>
+    <lastBuildDate>Tue, 18 Apr 2017 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Molecular Evolution Tutorial</title>
+      <link>/post/molecularevolutiontutorial/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/post/molecularevolutiontutorial/</guid>
+      <description>HYPHY stuff: all files need for this tutorial are here Identification of pervasive positive selection in cone snail venom 1. Get the file Conus.01.fas * This is our translated alignment
+2. We will now do the FUBAR analysis * This is a site specific method for detecting selection at the amino acid level, helpful in arms race scenarios
+3. Go to http://www.datamonkey.org/dataupload.php
+**4. ** Select choose file, select Conus.01.fas * Then, press Upload</description>
+    </item>
+    
+    <item>
+      <title>Reproducubility Tutorial</title>
+      <link>/post/reproducibilitytutorial/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/post/reproducibilitytutorial/</guid>
+      <description>Topics to be covered  Anaconda Snakemake Docker  Let&amp;rsquo;s try to make a small bioinformatics pipeline Let&amp;rsquo;s say we have some FASTA files containing protein sequences, and we&amp;rsquo;d like to make a phylogeny with those sequences.
+To do this we would make the following bash script, called butterbean.sh It would look like the following
+#!/bin/bash mafft --auto --phylipout $1 &amp;gt; $1.aln fasttree $1.aln &amp;gt; $1.tree  Data for the pipeline!</description>
+    </item>
+    
+  </channel>
+</rss>

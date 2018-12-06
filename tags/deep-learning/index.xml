@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning on tijeco</title>
+    <link>/tags/deep-learning/</link>
+    <description>Recent content in Deep Learning on tijeco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 tijeco</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Water quality near landfill with coal ash</title>
+      <link>/project/water-quality-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/water-quality-project/</guid>
+      <description>Coal ash is a coal combustion residue that is a major byproduct of coal-powered electricity generation. Coal ash often contains contaminants including arsenic, boron, chromium, and sulfide. In 2008, Perry County’s Arrowhead landfill became the recipient of 2.3 million m3 of coal ash removed from the Emory and Clinch Rivers after a rupture of TVA Kingston Fossil Plant’s coal ash containment site. This landfill is adjacent to several residences and the upstream of small tributaries that run through fields of cattle and into local creeks.</description>
+    </item>
+    
+  </channel>
+</rss>

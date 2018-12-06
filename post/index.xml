@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on tijeco</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on tijeco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 tijeco</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Molecular Evolution Tutorial</title>
+      <link>/post/molecularevolutiontutorial/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/post/molecularevolutiontutorial/</guid>
+      <description>HYPHY stuff: all files need for this tutorial are here Identification of pervasive positive selection in cone snail venom 1. Get the file Conus.01.fas * This is our translated alignment
+2. We will now do the FUBAR analysis * This is a site specific method for detecting selection at the amino acid level, helpful in arms race scenarios
+3. Go to http://www.datamonkey.org/dataupload.php
+**4. ** Select choose file, select Conus.01.fas * Then, press Upload</description>
+    </item>
+    
+    <item>
+      <title>Reproducubility Tutorial</title>
+      <link>/post/reproducibilitytutorial/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/post/reproducibilitytutorial/</guid>
+      <description>Topics to be covered  Anaconda Snakemake Docker  Let&amp;rsquo;s try to make a small bioinformatics pipeline Let&amp;rsquo;s say we have some FASTA files containing protein sequences, and we&amp;rsquo;d like to make a phylogeny with those sequences.
+To do this we would make the following bash script, called butterbean.sh It would look like the following
+#!/bin/bash mafft --auto --phylipout $1 &amp;gt; $1.aln fasttree $1.aln &amp;gt; $1.tree  Data for the pipeline!</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+  </channel>
+</rss>

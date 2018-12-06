@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slides on tijeco</title>
+    <link>/slides/</link>
+    <description>Recent content in Slides on tijeco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 tijeco</copyright>
+    
+	<atom:link href="/slides/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/ctenus-burn-slides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slides/ctenus-burn-slides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/ctenus-venom-slides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slides/ctenus-venom-slides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/danaus-slides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slides/danaus-slides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/toxify-slides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slides/toxify-slides/</guid>
+      <description>Toxify A Deep Learning Approach to Classifying Animal Venom Proteins Jeff Cole
+Ph.D. Student, East Carolina University
+Advisor: Michael S. Brewer, Ph.D.
+Venom  Efficiently write slides in Markdown 3-in-1: Create, Present, and Publish your slides Supports speaker notes Mobile friendly slides  Controls  Next: Right Arrow or Space Previous: Left Arrow Start: Home Finish: End Overview: Esc Speaker notes: S Fullscreen: F Zoom: Alt + Click PDF Export: E  Code Highlighting Inline code: variable</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/water-quality-slides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slides/water-quality-slides/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage[margin=0.5in,includefoot]{geometry}% http://ctan.org/pkg/geometry
+\usepackage{enumitem,fancyhdr,colortbl}% http://ctan.org/pkg/{enumitem,fancyhdr,colortbl}
+\usepackage{lastpage,lmodern,xcolor}% http://ctan.org/pkg/{lastpage,lmodern,xcolor}
+
+\renewcommand{\section}[1]{%
+  \begin{tabular}{p{\dimexpr\linewidth-2\tabcolsep}}
+    \cellcolor{black!10}\large\strut #1
+  \end{tabular}%
+}
+
+
+\newcommand{\heading}[2][\relax]{\textbf{#2}\hfill#1\par\nobreak}
+\newcommand{\pubheading}[1]{\par\bigskip\underline{\textbf{#1}}\par}
+\newlist{subitems}{itemize}{1}
+\setlist[subitems]{label={--},nosep}
+\newlist{myreferences}{enumerate}{1}
+\setlist[myreferences]{label={[\arabic*]},leftmargin=*}
+
+\let\rmdefault\sfdefault% Default is sans serif
+\setlength{\parindent}{0pt}% No indent
+\pagestyle{fancy}% Fancy page styl
+\fancyhf{}% Clear header/footer
+\renewcommand{\headrulewidth}{0pt}% No header rule
+\renewcommand{\footrulewidth}{.4pt}% Footer rule
+\fancyfoot[L]{Curriculum Vitae - My Name}% Left footer
+\fancyfoot[R]{\thepage{} of \pageref{LastPage}}% Right footer
+
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+% Header
+\begin{tabular}{@{}p{\linewidth}@{}}
+  \centering\LARGE T. Jeffrey Cole \\
+  \centering\large \strut Curriculum Vitae \\[\jot]
+  \hrule \mbox{}\\[\dimexpr-.4pt+\jot]
+  \small 1994L Hyde Dr, Greenville NC, 27858 \hfill (770) 324-7521 \\
+  \small coleti16@students.ecu.edu \hfill www.tijeco.info 
+\end{tabular}
+
+\renewcommand{\arraystretch}{1.5}% Spread titles out a tad...
+
+\section{Education}
+
+\begin{itemize}
+  \item \heading[expected May~2021]{Ph.D. in Biological Sciences}
+    East Carolina University, Greenville NC
+    \begin{subitems}
+      \item Dissertation title: \textit{Molecular evolution of venom proteins in Ctenidae spiders}
+    \end{subitems}
+
+  \item \heading[May~2016]{B.S. in Biology}
+    Samford University, Birmingham AL
+    \begin{subitems}
+      \item GPA: 3.88
+    \end{subitems}
+\end{itemize}
+
+
+\section{Publications}
+
+\pubheading{Journal Articles}
+
+\begin{myreferences}
+  \item Cole TJ, Brewer MS. (in prep). toxify: a deep learning approach for classifying animal
+venom proteins.
+
+  \item Cole TJ, Brewer MS. (2018) FUSTr: A tool for finding gene Families Under Selection in
+Transcriptome databases. \textit{PeerJ}, 6, e4234.
+\end{myreferences}
+
+\section{Work Experience}
+
+\begin{itemize}
+  \item \heading[Aug~2006 - present]{Sit-around-er}
+    My home
+    \begin{subitems}
+      \item Watching television
+      \item Sleep
+      \item Eat
+    \end{subitems}
+
+  \item \heading[Jan~2006 - Jul~2006]{Assistant to the assistant regional manager}
+    Dunder Mifflin
+    \begin{subitems}
+      \item Do as I am told
+      \item Always at the ready
+    \end{subitems}
+\end{itemize}
+
+
+\end{document}
+
+\end{document}

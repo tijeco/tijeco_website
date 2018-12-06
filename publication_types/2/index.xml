@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on tijeco</title>
+    <link>/publication_types/2/</link>
+    <description>Recent content in 2 on tijeco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 tijeco</copyright>
+    <lastBuildDate>Wed, 17 Jan 2018 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FUSTr: a tool to find gene families under selection in transcriptomes</title>
+      <link>/publication/fustr/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/publication/fustr/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+    <item>
+      <title>toxify: a deep learning aproach to classifying animal venom proteins</title>
+      <link>/publication/toxify/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/publication/toxify/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+    <item>
+      <title>Prescribed Burning Affects a Measure of Fitness in Ctenus hibernalis (Araneae: Ctenidae) at Oak Mountain State Park, Shelby County, AL</title>
+      <link>/publication/ctenus_hibernalis_sen/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 -0500</pubDate>
+      
+      <guid>/publication/ctenus_hibernalis_sen/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+  </channel>
+</rss>
