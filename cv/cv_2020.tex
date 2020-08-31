@@ -1,0 +1,410 @@
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+% (c) 2008 Nathaniel Johnston <nathaniel@nathanieljohnston.com> http://www.nathanieljohnston.com
+% (l) 2012 Arun I B <arunib@smail.iitm.ac.in> http://www.ee.iitm.ac.in/~ee10s026/
+%This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 2.5 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/2.5/ or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+\newlength{\outerbordwidth}
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\usepackage[svgnames]{xcolor}
+\usepackage{framed}
+\usepackage{times}
+\usepackage{tocloft}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+\usepackage[margin=0.5in,includefoot]{geometry}% http://ctan.org/pkg/geometry
+\usepackage{enumitem,fancyhdr,colortbl}% http://ctan.org/pkg/{enumitem,fancyhdr,colortbl}
+\usepackage{lastpage,lmodern,xcolor}% http://ctan.org/pkg/{lastpage,lmodern,xcolor}
+
+\usepackage{hanging}
+
+\usepackage[super]{nth}
+
+\usepackage{amssymb}
+
+\usepackage{setspace}
+\usepackage{lipsum}
+
+
+\title{Aparna-CV}
+%-----------------------------------------------------------
+%Edit these values as you see fit
+
+\setlength{\outerbordwidth}{0pt}  % Width of border outside of title bars
+\definecolor{shadecolor}{gray}{0.75}  % Outer background color of title bars (0 = black, 1 = white)
+\definecolor{shadecolorB}{gray}{0.93}  % Inner background color of title bars
+
+% \linespread{1.5}
+%-----------------------------------------------------------
+%Margin setup
+
+\setlength{\evensidemargin}{-0.25in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\paperheight}{11in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\tabcolsep}{0in}
+\setlength{\textheight}{9.5in}
+\setlength{\textwidth}{7in}
+\setlength{\topmargin}{-0.3in}
+\setlength{\topskip}{0in}
+\setlength{\voffset}{0.1in}
+
+
+%-----------------------------------------------------------
+%Custom commands
+
+
+\newcommand{\resheading}[1]{\vspace{8pt}
+  \parbox{\textwidth}{\setlength{\FrameSep}{\outerbordwidth}
+    \begin{shaded}
+\setlength{\fboxsep}{0pt}\framebox[\textwidth][l]{\setlength{\fboxsep}{4pt}\fcolorbox{shadecolorB}{shadecolorB}{\textbf{\sffamily{\mbox{~}\makebox[6.77in][l]{\large #1} \vphantom{p\^{E}}}}}}
+    \end{shaded}
+  }\vspace{-5pt}
+}
+%%%%%%%%%%%%%%%%%%%%%%%% sets main bullet
+\renewcommand{\labelitemi}{$\boxdot$}
+%%%%%%%%%%%%http://milde.users.sourceforge.net/LUCR/Math/mathpackages/amssymb-symbols.pdf%%%%%%%%%%%% 
+\newcommand{\heading}[2][\relax]{\textbf{#2}\hfill#1\par\nobreak}
+\newcommand{\pubheading}[1]{\par\bigskip\underline{\textbf{#1}}\par}
+\newlist{subitems}{itemize}{1}
+\setlist[subitems]{label={--},nosep}
+
+\newlist{myreferences}{enumerate}{1}
+\setlist[myreferences]{label={},leftmargin=*}
+
+\let\rmdefault\sfdefault% Default is sans serif
+\setlength{\parindent}{0pt}% No indent
+\pagestyle{fancy}% Fancy page styl
+\fancyhf{}% Clear header/footer
+\renewcommand{\headrulewidth}{0pt}% No header rule
+\renewcommand{\footrulewidth}{.4pt}% Footer rule
+\fancyfoot[L]{\textit{Curriculum Vitae} - T. Jeffrey Cole }% Left footer
+% \fancyfoot[R]{\thepage{} of \pageref{LastPage}}% Right footer
+\fancyfoot[R]{Last updated: \today}% Right footer
+\setlength{\parskip}{10pt}
+%-----------------------------------------------------------
+
+
+% \newcommand{\heading}[2][\relax]{\textbf{#2}\hfill#1\par\nobreak}
+% \newcommand{\pubheading}[1]{\par\bigskip\underline{\textbf{#1}}\par}
+% \newlist{subitems}{itemize}{1}
+% \setlist[subitems]{label={--},nosep}
+% \newlist{myreferences}{enumerate}{1}
+% \setlist[myreferences]{label={[\arabic*]},leftmargin=*}
+
+\usepackage{Sweave}
+\begin{document}
+\input{cv_2018-concordance}
+
+%-----------------------------------------------------------
+%Insert IIT Madras Logo 
+\begin{center}
+\textbf{\Large T. Jeffrey Cole}
+\end{center}
+% \begin{tabular*}{7in}{l@{\extracolsep{\fill}}l}
+(770) 324-7521  \hfill  1994L Hyde Dr, Greenville NC\\
+www.tijeco.info  \hfill  coleti16@students.ecu.edu
+% \end{tabular*}
+\\
+\renewcommand{\baselinestretch}{2.0}
+% \renewcommand{\arraystretch}{1.5}% Spread titles out a tad...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Education}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+  \item \heading[expected May~2021]{Ph.D. in Biological Sciences}
+    East Carolina University, Greenville NC
+    \begin{subitems}
+      \item Dissertation title: \textit{Molecular evolution of venom proteins in Ctenidae spiders}
+    \end{subitems}
+
+  \item \heading[May~2016]{B.S. in Biology, \normalfont{ \textit{ magna cum laude}}}
+    Samford University, Birmingham AL
+    \begin{itemize}
+
+    \item \textbf{GPA:} 3.88
+    \item \textbf{Honors}
+    
+    \begin{itemize}
+    \item[$\diamond$] Beta Beta Beta National Biology Honors Society  (2013-2015)
+     \begin{itemize}
+    \item Vice President(2015)
+    
+    
+    \end{itemize}
+    
+    \item[$\diamond$] Alpha Lambda Delta Honors Society (2013-2015)
+    
+    \end{itemize}
+    
+    \end{itemize}
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Publications}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \pubheading{Journal Articles}
+
+\begin{hangparas}{.25in}{1}
+  \textbf{Cole TJ}, Enoch KL, Brewer MS. (in prep). Costly arms: insights into the optimization of toxin gene expression across venomous invertebrates.
+  
+  Cohen CM, \textbf{Cole TJ}, Brewer MS. (in prep). Pick your poison: molecular evolution of venom proteins in Asilidae (Insecta: Diptera).
+
+  \textbf{Cole TJ}, Brewer MS. (2019). toxify: a deep learning approach for classifying animal
+venom proteins. \textit{PeerJ}, 7, p.e7200.
+
+  \textbf{Cole TJ}, Brewer MS. (2018) FUSTr: A tool for finding gene Families Under Selection in
+Transcriptome databases. \textit{PeerJ}, 6, e4234.
+
+\textbf{Cole TJ}, Hataway RA. (2016). Prescribed burning affects a measure of fitness in Ctenus
+hibernalis (Araneae: Ctenidae) at Oak Mountain State Park, Shelby County,
+Alabama. \textit{Southeastern Naturalist}. 15(4):646–652.
+
+\end{hangparas}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Presentations}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+
+\item \heading[2020]{Molecular evolution of inhibitor cystine knot toxins in the genomes of spiders}
+   \textit{Oral presentation}
+    \begin{subitems}
+      \item \nth{44} annual meeting of the American Arachnological society, virtual via Davis CA.
+    \end{subitems}
+
+
+\item \heading[2019]{Comparative venom gland transcriptomics of wandering spiders (Araneae:Ctenidae)}
+   \textit{Poster presentation}
+    \begin{subitems}
+      \item \nth{73} annual meeting of the Society for the Study of Evolution, Providence RI.
+    \end{subitems}
+
+ \item \heading[2019]{Phylogenomics of the venomous assassin flies using ultracovserved elements}
+   \textit{Poster presentation (co-author)}
+    \begin{subitems}
+      \item presented by Chris Cohen
+      \item \nth{73} annual meeting of the Society for the Study of Evolution, Providence RI.
+    \end{subitems}
+    
+    
+  \item \heading[2018]{Comparative venom gland transcriptomics of the U.S Ctenidae (Order:Araneae)}
+   \textit{Oral presentation}
+    \begin{subitems}
+      \item \nth{42} annual meeting of the American Arachnological society, Ypsilanti MI.
+    \end{subitems}
+    
+     \item \heading[2018]{Using deep learning to classify animal venom proteins}
+   \textit{Oral presentation}
+    \begin{subitems}
+      \item \nth{79} annual meeting of the Association for Southeastern Biologists conference,\\ Myrtle Beach, SC.
+      
+    \end{subitems}
+    
+    \item \heading[2017]{Signatures of positive selection in venom proteins of Hawaiian Tetragnatha (Araneae:Tetragnathidae)}
+
+   \textit{Poster presentation}
+    \begin{subitems}
+      \item \nth{35} annual Society for Molecular Biology and Evolution, Austin, TX
+      
+    \end{subitems}
+    
+    \item \heading[2016]{Characterization of the venom proteome for the wandering spider Ctenus hibernalis (Araneae: Ctenidae)}
+\textit{Oral presentation}
+    \begin{subitems}
+      \item Venom Week V, Greenville NC
+      
+    \end{subitems}
+   \textit{Poster presentation}
+    \begin{subitems}
+      \item \nth{93} annual Meeting of the Alabama Academy of Science, Florence AL
+        \begin{itemize}
+\item[$\diamond$] Winner of Best Poster in Biological Sciences Award
+
+\end{itemize}
+      \item \nth{77} annual meeting of the Association for Southeastern Biologists conference, Concord NC
+      \item \nth{20} annual meeting of the International Congress of Arachnology, Golden CO
+          \end{subitems}
+    
+    \item \heading[2015]{Molecular evolution of sperm proteins in \textit{Danaus}
+butterflies}
+\textit{Oral presentation}
+    \begin{subitems}
+      \item Samford University Summer Research Symposium
+    \end{subitems}
+   \textit{Poster presentation}
+    \begin{subitems}
+      \item University of Kansas Summer Undergraduate Research Poster Session
+      \item \nth{5} annual Emerging Researchers National STEM Conference, Washington D.C.
+    \end{subitems}
+    
+\item \heading[2015]{ Density and fitness of \textit{Ctenus hibernalis} (Aranea:
+Ctenidae) in a montane longleaf pine ecosystem undergoing restoration}
+\textit{Oral presentation}
+    \begin{subitems}
+      \item Samford University Summer Research Symposium
+    \end{subitems}
+   \textit{Poster presentation}
+    \begin{subitems}
+      \item \nth{92} annual Meeting of the Alabama Academy of Science, Livingston,
+AL
+      \item \nth{4} annual Emerging Researchers National STEM Conference, Washington D.C.
+    \end{subitems}
+
+       \item \heading[2014]{Effects of surface runoff from a landfill containing coal
+ash on water chemistry in adjacent surface water in Perry County, Alabama}
+\textit{Oral presentation}
+    \begin{subitems}
+      \item Perry County City Hall meeting
+      \item Samford University Summer Research Symposium
+      
+      
+    \end{subitems}
+   \textit{Poster presentation}
+    \begin{subitems}
+      \item \nth{75} annual Association for Southeastern Biologists conference, Spartanburg SC
+        \begin{itemize}
+\item[$\diamond$] Winner of Elsie Quarterman-Catherine Keever Poster Award
+
+\end{itemize}
+ 
+    \end{subitems}
+    
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Society Memberships }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\setstretch{1.5}
+Society for Molecular Biology and Evolution  \cftdotfill{\cftdotsep} 2017-present\\
+American Arachnological Society  \cftdotfill{\cftdotsep}2016-present\\
+North American Society of Toxinology \cftdotfill{\cftdotsep} 2015-present\\
+American Chemical Society  \cftdotfill{\cftdotsep} 2015-present\\
+Association for Southeastern Biologists   \cftdotfill{\cftdotsep} 2015-present\\
+Alabama Academy of Science  \cftdotfill{\cftdotsep} 2013-2016\\
+ \par
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Awards \& Grants }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\setstretch{1.5}
+American Museum of Natural History Theodore Roosevelt Memorial Grant (\$1,000) \cftdotfill{\cftdotsep}2017\\
+East Carolina University biodiversity initiative internal grant for outreach (\$200) \cftdotfill{\cftdotsep}2017\\
+NSF Graduate Research Fellowship  (\$132,000) \cftdotfill{\cftdotsep}2016\\
+Brakefield Textbook scholarship (\$100) \cftdotfill{\cftdotsep}2016\\
+NSF REU Summer research grant, University of Kansas (\$5,500) \cftdotfill{\cftdotsep}2015\\
+NSF REU Summer research grant, Samford University (\$5,500) \cftdotfill{\cftdotsep}2014\\
+Samford University Summer Propst Research scholar (\$2,000) \cftdotfill{\cftdotsep}2013\\ \par
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Teaching}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+
+  \item \heading[2018-2020]{Principles of Biology Laboratory, BIOL 1101, graduate teaching assistant}
+    \begin{subitems}
+      \item{East Carolina University}
+      \item{Utilizing Argument Driven Inquiry to guide students in experiments related to molecular biology, bioenergetics, cellular structure, physiology, and the molecular basis of inheritance and control of gene expression}
+    \end{subitems}
+    
+    \item \heading[2017-2019]{Practical computing, BIOL 6220, guest lecturer}
+    \begin{subitems}
+      \item{East Carolina University}
+      \item{Best practices for reproducibility in bioinformatics}
+      \item{Phylogenetic tests for positive selection}
+    \end{subitems}
+    
+    \item \heading[2019]{Population Biology, BIOL 350, guest lecturer}
+    \begin{subitems}
+      \item{Samford University}
+      \item{Techniques and principles of population genomics}
+    \end{subitems}
+    
+    
+\end{itemize}
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Service \& Outreach}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+
+  \item \heading[2020]{U.S. Census Field Enumerator}
+  \begin{subitems}
+  \item{Assist members of the community in Eastern North Carolina with completing the 2020 U.S. Census questionare.}
+  \end{subitems}
+
+  \item \heading[2019]{Nerd Nite Boss}
+  \begin{subitems}
+  \item{Organizer of science communication event where members of the public present on topics of personal interest or expertise in a fun-yet-intellectual format}
+  \end{subitems}
+
+  \item \heading[2016-present]{ Bugfest}
+  \begin{subitems}
+  \item{Annual public showcase of local arthropod diversity at the Museum of Natural History, Raleigh NC}
+  \end{subitems}
+  
+  \item \heading[2016-present]{Undergraduate student mentor }
+  \begin{subitems}
+  \item{research project coordinator for 5 undergraduate research projects}
+  \end{subitems}
+  \item \heading[2016]{Letters to a Pre-Scientist.  }
+  \begin{subitems}
+  \item{Mentoring network for middle school students in at-risk communities to encourage their pursuit of scientific careers }
+  \end{subitems}
+  
+  \item \heading[2015]{ Spiders of Birmingham, AL  }
+  \begin{subitems}
+  \item{Bi-annual community seminar on how to collect and identify local spiders}
+  \end{subitems}
+  \item \heading[2015]{Sustainable fisheries practices}
+  \begin{subitems}
+  \item{Guest lecture at 4H chapter in Birmingham}
+  \end{subitems}
+  
+   \item \heading[2013-2016]{ Shades Creek Cleanup }
+  \begin{subitems}
+  \item{Co-organizer for annual cleanup efforts in Birmingham AL}
+  \end{subitems}
+  
+  \item \heading[2013-2016]{ Samford gives back}
+  \begin{subitems}
+  \item{Annual event to provide assistance with establishing community gardens}
+  \end{subitems}
+  
+  
+   
+  \end{itemize}
+   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Skills}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item
+	Programming and Markup Languages
+	\begin{itemize}
+		\item \textbf{ Expert:} Python, Go, R, Bash
+		\item \textbf{ Intermediate:}  Java, C\texttt{++}, HTML, CSS, Javascript, SQL, \LaTeX
+		% \resitem{{\bf Intermediate:} Java, \LaTeX, Python}
+	\end{itemize}
+\end{itemize}
+	
+
+\end{document}
